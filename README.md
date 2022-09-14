@@ -1,6 +1,6 @@
 # QAbot
 QAbot是什麼?
-A:根據wiki資料來自動答題的機器人，這些問題可以從選項去搜尋wiki來獲得答案，例如下列的問題
+A:根據wiki資料來自動答題的機器人，這些題目容易從選項去搜尋wiki來獲得答案，例如下列的問題
 是一部於2014年上映的美國超級英雄電影，美國隊長的續集，由安東尼及喬·羅素共同執導。', 'A': '無限之戰', 'B': '奧創紀元', 'C': '酷寒戰士'}
 
 如何做到?
@@ -16,15 +16,16 @@ A:原理為將2020wiki爬蟲下來並將各個項目(美國隊長2:酷寒戰士�
 ...........
 
 再來將題目斷句並只取動詞、名詞、人名等關鍵詞
-'是一部於2014年上映的美國超級英雄電影，美國隊長的續集，由安東尼及喬·羅素共同執導'會被斷成 
+如:'是一部於2014年上映的美國超級英雄電影，美國隊長的續集，由安東尼及喬·羅素共同執導'會被斷成 
 
 2014、上映、美國、超級、英雄、電影、續集
 
 再來比較ABC三個選項內的詞頻表與題目出現的關鍵字(依吻合程度與吻何的關鍵字出現次數)決定誰是最好的選項。
 
+
 如何執行?
 
-到這 https://drive.google.com/drive/folders/1SHpGUiRIX_Qsuhx4ANHA8bkHZ7IjZkuS?usp=sharing 下載 2020wiki+m+eng.pickle 該檔為的詞頻表
+到這 https://drive.google.com/drive/folders/1SHpGUiRIX_Qsuhx4ANHA8bkHZ7IjZkuS?usp=sharing 下載 2020wiki+m+eng.pickle 詞頻表
 
 並執行QAbot，QAbot會回答clear_quesion內的問題
 
