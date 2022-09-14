@@ -23,8 +23,10 @@ A:原理為將2020wiki爬蟲下來並將各個項目(美國隊長2:酷寒戰士�
 再來比較ABC三個選項內的詞頻表與題目出現的關鍵字(依吻合程度與吻何的關鍵字出現次數)決定誰是最好的選項。
 
 如何執行?
-執行Question.
-https://drive.google.com/drive/folders/1SHpGUiRIX_Qsuhx4ANHA8bkHZ7IjZkuS?usp=sharing 
+
+到這 https://drive.google.com/drive/folders/1SHpGUiRIX_Qsuhx4ANHA8bkHZ7IjZkuS?usp=sharing 下載 2020wiki+m+eng.pickle 該檔為的詞頻表
+
+並執行QAbot，QAbot會回答clear_quesion內的問題
 
 
 
